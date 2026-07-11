@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Снабжение объектов строительными и черновыми материалами по низким ценам в Рязани. Черновые материалы в наличии, заказные — в короткие сроки. Минимальная предоплата, доставка, разгрузка и комплектация под ключ.">
+    <meta name="keywords" content="строительные материалы Рязань, черновые материалы, комплектация объектов, снабжение строительством, материалы для строительства">
+    <title>Снабжение объектов строительными материалами в Рязани | Низкие цены</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🏗️</span>
+                <span class="logo-text">СтройСнаб<br><small>Рязань</small></span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#advantages" class="nav-link">Преимущества</a></li>
+                    <li><a href="#charts" class="nav-link">Выгода</a></li>
+                    <li><a href="#how-it-works" class="nav-link">Как мы работаем</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="tel:+79101234567" class="header-phone">+7 (910) 123-45-67</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Закрыть меню">&times;</button>
+            <nav class="mobile-nav">
+                <a href="#advantages" class="mobile-nav-link">Преимущества</a>
+                <a href="#charts" class="mobile-nav-link">Выгода</a>
+                <a href="#how-it-works" class="mobile-nav-link">Как мы работаем</a>
+                <a href="#services" class="mobile-nav-link">Услуги</a>
+                <a href="#reviews" class="mobile-nav-link">Отзывы</a>
+                <a href="#faq" class="mobile-nav-link">FAQ</a>
+                <a href="#contacts" class="mobile-nav-link">Контакты</a>
+            </nav>
+            <a href="tel:+79101234567" class="mobile-phone">+7 (910) 123-45-67</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Снабжение объектов материалами по низким ценам в Рязани</h1>
+                <p class="hero-subtitle">Черновые материалы в наличии, заказные — в короткие сроки. Минимальная предоплата, доставка, разгрузка и комплектация под ключ.</p>
+                <div class="hero-actions">
+                    <a href="#applicationForm" class="btn btn-primary">Оставить заявку</a>
+                    <a href="#applicationForm" class="btn btn-secondary">Получить расчет</a>
+                </div>
+                <div class="hero-trust">
+                    <span>✅ Оплата по факту получения</span>
+                    <span>✅ Без предоплаты на черновые материалы</span>
+                </div>
+            </div>
+            <div class="hero-form">
+                <div class="form-card">
+                    <h3 class="form-card-title">Получите расчет</h3>
+                    <p class="form-card-subtitle">Бесплатно за 15 минут</p>
+                    <form class="form" id="applicationForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Иван" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Телефон</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Что нужно (материалы, объем)</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Например: 50 м³ песка, 10 тонн щебня" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Получить расчет</button>
+                        <p class="form-note">Нажимаю кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Charts Section -->
+    <section class="charts" id="charts">
+        <div class="container">
+            <h2 class="section-title">Экономия на каждом объекте</h2>
+            <p class="section-subtitle">Сравните наши условия с рыночными — и увидите разницу</p>
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3 class="chart-title">Цена ниже конкурентов</h3>
+                    <div class="chart-bars">
+                        <div class="chart-row">
+                            <span class="chart-label">Конкуренты</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar chart-bar-competitor">100%</div>
+                            </div>
+                        </div>
+                        <div class="chart-row">
+                            <span class="chart-label">Мы</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar chart-bar-us">от 75%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="chart-save">Экономия до 25% на каждом заказе</p>
+                </div>
+                <div class="chart-card">
+                    <h3 class="chart-title">Скорость поставки</h3>
+                    <div class="chart-bars">
+                        <div class="chart-row">
+                            <span class="chart-label">Конкуренты</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar chart-bar-competitor">7-14 дней</div>
+                            </div>
+                        </div>
+                        <div class="chart-row">
+                            <span class="chart-label">Мы</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar chart-bar-us">~7 дней</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="chart-save">Заказные материалы — около недели</p>
+                </div>
+                <div class="chart-card">
+                    <h3 class="chart-title">Предоплата</h3>
+                    <div class="chart-bars">
+                        <div class="chart-row">
+                            <span class="chart-label">Конкуренты</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar chart-bar-competitor">30-100%</div>
+                            </div>
+                        </div>
+                        <div class="chart-row">
+                            <span class="chart-label">Мы</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar chart-bar-us">от 10%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="chart-save">Минимальная предоплата только на заказные позиции</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <h2 class="section-title">Почему выгодно работать с нами</h2>
+            <div class="advantages-grid">
+                <article class="advantage-card">
+                    <div class="advantage-icon">💰</div>
+                    <h3 class="advantage-title">Цена ниже, чем у конкурентов</h3>
+                    <p class="advantage-text">Работаем без лишних постоянных расходов и без вложений в товарный склад.</p>
+                </article>
+                <article class="advantage-card">
+                    <div class="advantage-icon">✅</div>
+                    <h3 class="advantage-title">Оплата по факту получения</h3>
+                    <p class="advantage-text">Черновой материал, который всегда в наличии, вы оплачиваете после приемки.</p>
+                </article>
+                <article class="advantage-card">
+                    <div class="advantage-icon">📦</div>
+                    <h3 class="advantage-title">Минимальная предоплата</h3>
+                    <p class="advantage-text">На заказной материал — всего около 10% от суммы заказа.</p>
+                </article>
+                <article class="advantage-card">
+                    <div class="advantage-icon">🚚</div>
+                    <h3 class="advantage-title">Быстрая комплектация и доставка</h3>
+                    <p class="advantage-text">Соблюдаем оговоренные сроки, оперативно доставляем материалы на объект.</p>
+                </article>
+                <article class="advantage-card">
+                    <div class="advantage-icon">🔑</div>
+                    <h3 class="advantage-title">Полное сопровождение под ключ</h3>
+                    <p class="advantage-text">Доставка, разгрузка, приемка — берем на себя все этапы.</p>
+                </article>
+                <article class="advantage-card">
+                    <div class="advantage-icon">🛡️</div>
+                    <h3 class="advantage-title">Без лишних расходов</h3>
+                    <p class="advantage-text">Не платите за аренду склада и лишний штат — это экономия для вас.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Как мы работаем</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Оставляете заявку</h3>
+                    <p class="step-text">Звонок, форма на сайте или сообщение в мессенджере.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Уточняем детали</h3>
+                    <p class="step-text">Список материалов, объемы и сроки поставки.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Подбираем поставщиков</h3>
+                    <p class="step-text">Даем прозрачный расчет с оптимальными ценами.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Согласовываем условия</h3>
+                    <p class="step-text">Сроки, предоплата и график доставки.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3 class="step-title">Комплектуем и доставляем</h3>
+                    <p class="step-text">Доставляем, разгружаем, при необходимости принимаем товар вместе с вами.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Что мы поставляем</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon">🧱</div>
+                    <h3 class="service-title">Черновые материалы</h3>
+                    <p class="service-text">Всегда в наличии. Бетон, арматура, кирпич, блоки, песок, щебень, цемент и другие материалы для начала работ.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3 class="service-title">Заказные материалы</h3>
+                    <p class="service-text">Любые строительные и черновые материалы под ваш проект. Подбираем оптимальных поставщиков и контролируем сроки.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3 class="service-title">Комплектация под ключ</h3>
+                    <p class="service-text">Полный цикл: подбор, закупка, доставка, разгрузка, приемка. Экономите время и нервы.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">🚛</div>
+                    <h3 class="service-title">Доставка и разгрузка</h3>
+                    <p class="service-text">Собственный транспорт и штат для оперативной доставки на любой объект в Рязани и области.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="form">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="form-info">
+                    <h2 class="form-title">Оставьте заявку</h2>
+                    <p class="form-subtitle">Получите расчет стоимости и условия поставки уже сегодня. Менеджер перезвонит в течение 15 минут.</p>
+                    <ul class="form-benefits">
+                        <li>Бесплатный расчет и подбор материалов</li>
+                        <li>Конкурентные цены и гибкие условия</li>
+                        <li>Без скрытых платежей и накруток</li>
+                    </ul>
+                </div>
+                <form class="form" id="applicationForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Ваше имя</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Иван" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Телефон</label>
+                        <input type="tel" id="phone" name="phone" class="form-input" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Что нужно (материалы, объем, объект)</label>
+                        <textarea id="message" name="message" class="form-textarea" placeholder="Например: 50 м³ песка, 10 тонн щебня, для частного дома" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Получить расчет</button>
+                    <p class="form-note">Нажимаю кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы наших клиентов</h2>
+            <div class="reviews-grid">
+                <article class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">А</div>
+                        <div class="review-meta">
+                            <strong class="review-name">Алексей</strong>
+                            <span class="review-role">Прораб, бригада</span>
+                        </div>
+                    </div>
+                    <p class="review-text">«Работаем уже полгода. Материалы всегда в срок, цены адекватные. На черновые не берут предоплату — это большой плюс.»</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </article>
+                <article class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">М</div>
+                        <div class="review-meta">
+                            <strong class="review-name">Марина</strong>
+                            <span class="review-role">Частный клиент</span>
+                        </div>
+                    </div>
+                    <p class="review-text">«Заказывали материалы для дома. Все подобрали, доставили, разгрузили. Очень удобно, сэкономили кучу времени.»</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </article>
+                <article class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">Д</div>
+                        <div class="review-meta">
+                            <strong class="review-name">Дмитрий</strong>
+                            <span class="review-role">Застройщик</span>
+                        </div>
+                    </div>
+                    <p class="review-text">«Плотно сотрудничаем по нескольким объектам. Стабильно, быстро, без сюрпризов. Рекомендую.»</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Где вы находитесь и в каком регионе работаете?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Мы базируемся в Рязани и работаем по Рязани и Рязанской области. Доставка осуществляется на любой объект в удобное для вас время.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Есть ли минимальная сумма заказа?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Минимальной суммы заказа нет. Мы работаем с объектами любого масштаба — от небольшого ремонта до крупных строек.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Как быстро вы можете доставить материалы?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Черновые материалы в наличии — доставляем в день заказа или на следующий. Заказные материалы — около недели в зависимости от позиций.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Можно ли заказать доставку и разгрузку?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Да, по желанию клиента мы осуществляем полную комплектацию: доставка, разгрузка, приемка товара на объекте.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Какая предоплата требуется?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>На черновые материалы, которые есть в наличии, предоплата не требуется — оплата по факту получения. На заказные материалы — около 10% от суммы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3 class="contact-title">Адрес</h3>
+                    <p class="contact-text">Рязань, Рязанская область</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3 class="contact-title">Телефон</h3>
+                    <a href="tel:+79101234567" class="contact-link">+7 (910) 123-45-67</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3 class="contact-title">Email</h3>
+                    <a href="mailto:info@stroysnab-ryazan.ru" class="contact-link">info@stroysnab-ryazan.ru</a>
+                </div>
+                <div class="contact-card contact-socials">
+                    <h3 class="contact-title">Связаться с нами</h3>
+                    <div class="social-buttons">
+                        <a href="https://wa.me/79101234567" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+                        <a href="https://t.me/username" class="btn btn-telegram" target="_blank" rel="noopener">Telegram</a>
+                        <a href="tel:+79101234567" class="btn btn-call">Позвонить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-icon">🏗️</span>
+                <span class="logo-text">СтройСнаб<br><small>Рязань</small></span>
+            </div>
+            <p class="footer-text">Снабжение объектов строительными материалами по низким ценам в Рязани.</p>
+            <p class="footer-copyright">© 2024 СтройСнаб Рязань. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
