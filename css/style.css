@@ -332,41 +332,63 @@ input, textarea {
     line-height: 1.6;
 }
 
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
 .hero-trust {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     font-size: 0.9375rem;
     opacity: 0.9;
+    margin-bottom: 2rem;
 }
 
-.hero-form {
-    display: flex;
-    justify-content: center;
-}
-
-.form-card {
+.hero-form-inline {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: var(--radius-lg);
-    padding: 2.5rem;
-    max-width: 420px;
-    width: 100%;
+    padding: 1.5rem;
 }
 
-.form-card-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.25rem;
-    text-align: center;
+.hero-form-inline .form {
+    gap: 1rem;
 }
 
-.form-card-subtitle {
-    text-align: center;
-    opacity: 0.85;
-    margin-bottom: 1.5rem;
+.hero-form-inline .form-label {
+    font-size: 0.875rem;
+}
+
+.hero-form-inline .form-input,
+.hero-form-inline .form-textarea {
+    padding: 0.75rem 1rem;
     font-size: 0.9375rem;
+}
+
+.hero-form-inline .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+}
+
+.hero-form-inline .form-note {
+    font-size: 0.75rem;
+}
+
+.hero-visual {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
 }
 
 /* ===== ADVANTAGES ===== */
@@ -925,12 +947,13 @@ input, textarea {
         justify-content: center;
     }
 
-    .hero-form {
+    .hero-visual {
         order: -1;
     }
 
-    .form-card {
-        max-width: 500px;
+    .hero-image {
+        max-height: 300px;
+        object-fit: cover;
     }
 
     .advantages-grid {
@@ -993,8 +1016,8 @@ input, textarea {
         font-size: 1rem;
     }
 
-    .form-card {
-        padding: 1.5rem;
+    .hero-image {
+        max-height: 220px;
     }
 
     .section-title {
